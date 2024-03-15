@@ -1,25 +1,27 @@
-/* common shared style  */
+/* ........................common shared style....................................  */
 * {
   font-family: "Open Sans", sans-serif;
 }
-.text-primary{
-    color: #FD6E0A;
+.text-primary {
+  color: #fd6e0a;
 }
-.btn-primary{ 
- border-radius: 5px;
- background: #FD6E0A;
- border: none;
- color: var(--White-Color, #FFF);
-font-size: 20px;
-font-weight: 700;
-padding: 18px 35px;
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: none;
+  color: var(--White-Color, #fff);
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 35px;
 }
 
-/* nav related styles */
+/* ......................nav related styles.......................................... */
+
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 0px 200px;
 }
 .nav-title {
   color: var(--Dark-01, #181818);
@@ -28,15 +30,29 @@ nav {
   font-weight: 800;
   line-height: normal;
 }
-nav > ul{
-    display: flex;
-    align-items: center;
+nav > ul {
+  display: flex;
+  align-items: center;
 }
-nav li{
-    list-style: none;
-    margin-right: 50px;
+nav li {
+  list-style: none;
+  margin-right: 50px;
 }
-nav a{
-    text-decoration: none;
-    color: color: var(--Dark-02, #474747);;
+nav a {
+  text-decoration: none;
+  color: var(--Dark-02, #474747);
+}
+
+/* ........................header related style........................................  */
+
+.header {
+  background: #fff8f3;
+}
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+.profile-pic {
+  width: 584px;
 }
