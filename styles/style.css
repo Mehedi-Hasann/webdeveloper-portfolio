@@ -166,6 +166,25 @@ main section {
 /* ...............footer section style.....................  */
 footer{
   display: flex;
+  gap: 100px;
   background: #FFF8F3;
   padding: 130px 200px;
+}
+.footer-column{
+  max-width: 50%;
+}
+.contact input[type="text"], .contact input[type="email"]
+,textarea{
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: var(--Dark-03, #757575);
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background: #FFF;
+  width: 100%;
+}
+.social-links a{
+  margin-right: 25px;
 }
